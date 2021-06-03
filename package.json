@@ -1,0 +1,25 @@
+{
+  "name": "cordova-plugin-sqliteUtilsPlugin",
+  "version": "0.0.1",
+  "description": "This plugin will help to implement SQLite database in cordova ",
+  "cordova": {
+    "id": "cordova-plugin-sqliteUtilsPlugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/randhawa-jagdeep/SQLiteUtilsPlugin.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Jagdeep Kaur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/randhawa-jagdeep/SQLiteUtilsPlugin/issues"
+  },
+  "homepage": "https://github.com/randhawa-jagdeep/SQLiteUtilsPlugin#readme"
+}

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-sqliteUtilsPlugin" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+xmlns:android="http://schemas.android.com/apk/res/android"><name>SQLiteUtilsPlugin</name><js-module
+ name="SQLiteUtilsPlugin" src="www/SQLiteUtilsPlugin.js"><clobbers target="cordova.plugins.sqliteUtilsPlugin" />
+</js-module><platform name="android"><config-file parent="/*" target="res/xml/config.xml">
+<feature name="SQLiteUtilsPlugin"><param name="android-package"
+ value="org.apache.cordova.sqliteUtilsPlugin.SQLiteUtilsPlugin" /></feature>
+</config-file><config-file parent="/*" target="AndroidManifest.xml"></config-file>
+<source-file src="src/android/SQLiteUtilsPlugin.java" target-dir="src/org/apache/cordova/sqliteUtilsPlugin/" 
+/>
+<source-file src="src/android/DBHelper.java" target-dir="src/org/apache/cordova/sqliteUtilsPlugin/"/>
+
+<source-file src="src/android/SQLiteConnector.java" target-dir="src/org/apache/cordova/sqliteUtilsPlugin/"/>
+<source-file src="src/android/SQLCode.java" target-dir="src/org/apache/cordova/sqliteUtilsPlugin/"/>
+<source-file src="src/android/SQLiteConnection.java" target-dir="src/org/apache/cordova/sqliteUtilsPlugin/"/>
+<source-file src="src/android/SQLiteConnectionFactory.java" target-dir="src/org/apache/cordova/sqliteUtilsPlugin/"/>
+<source-file src="src/android/SQLColumnType.java" target-dir="src/org/apache/cordova/sqliteUtilsPlugin/"/>
+<source-file src="src/android/SQLiteConnectorHelper.java" target-dir="src/org/apache/cordova/sqliteUtilsPlugin/"/>
+<source-file src="src/android/SQLiteOpenFlags.java" target-dir="src/org/apache/cordova/sqliteUtilsPlugin/"/>
+<source-file src="src/android/SQLiteStatementInterface.java" target-dir="src/org/apache/cordova/sqliteUtilsPlugin/"/>
+
+</platform></plugin>
