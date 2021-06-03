@@ -1,4 +1,4 @@
-cordova.define("cordova-plugin-sqliteUtilsPlugin.SQLiteUtilsPlugin", function(require, exports, module) {
+
 
 (function() {
   var DB_STATE_INIT, DB_STATE_OPEN, READ_ONLY_REGEX, SQLiteConnectionFactory, SQLiteUtilsPlugin, SQLiteUtilsPluginTransaction, SelfTest, argsArray, dblocations, iosLocationMap, newSQLError, nextTick, root, txLocks;
@@ -917,5 +917,5 @@ cordova.define("cordova-plugin-sqliteUtilsPlugin.SQLiteUtilsPlugin", function(re
 
 }).call(this);
 
-});
+
 
